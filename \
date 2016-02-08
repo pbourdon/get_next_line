@@ -6,7 +6,7 @@
 /*   By: pbourdon <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/20 23:18:43 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/02/08 20:36:51 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/02/08 20:30:24 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,3 +71,19 @@ int				get_next_line(int const fd, char **line)
 	}
 	return (check);
 }
+/*
+   int		main(void)
+   {
+   char	*line;
+   int		fd;
+   char	*filename;
+   int		ret;
+
+   filename = "test2.txt";
+   fd = open(filename, O_RDONLY);
+   while ((ret = get_next_line(fd, &line)) > 0)
+   {
+   printf ("%d\n", ret);
+   }
+   }
+   */

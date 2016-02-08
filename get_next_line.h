@@ -6,13 +6,13 @@
 /*   By: pbourdon <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/20 23:19:13 by pbourdon          #+#    #+#             */
-/*   Updated: 2016/01/25 17:53:28 by pbourdon         ###   ########.fr       */
+/*   Updated: 2016/02/08 20:32:30 by pbourdon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
-# define BUFF_SIZE 9999
+# define BUFF_SIZE 9
 # include <string.h>
 
 void		*ft_memcpy(void *dst, const void *src, size_t n);
